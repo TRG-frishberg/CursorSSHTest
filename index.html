@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Asher - Data Intelligence</title>
+    <meta name="description" content="Blue Asher is architecting the next generation of data intelligence. Precision-engineered insights for institutional decision makers.">
+    <meta name="theme-color" content="#0052FF">
+    <meta property="og:title" content="Blue Asher - Data Intelligence">
+    <meta property="og:description" content="Architecting the next generation of data intelligence. Precision-engineered insights coming soon.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <span class="logo-text">Blue Asher</span>
+                <span class="logo-subtitle">Data Intelligence</span>
+            </div>
+            <div class="status-badge">
+                <div class="status-dot"></div>
+                <span id="statusText">Building</span>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="hero-section">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Precision <span class="gradient-text">Intelligence</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        We're architecting the next generation of data intelligence. 
+                        Every data point matters when building insights that move markets.
+                    </p>
+                </div>
+
+                <div class="neural-network">
+                    <div class="network-container">
+                        <!-- Input Layer -->
+                        <div class="network-layer input-layer">
+                            <div class="network-node"></div>
+                            <div class="network-node"></div>
+                            <div class="network-node"></div>
+                            <div class="network-node"></div>
+                        </div>
+                        
+                        <!-- Hidden Layer 1 -->
+                        <div class="network-layer hidden-layer-1">
+                            <div class="network-node"></div>
+                            <div class="network-node"></div>
+                            <div class="network-node"></div>
+                            <div class="network-node"></div>
+                            <div class="network-node"></div>
+                        </div>
+                        
+                        <!-- Hidden Layer 2 -->
+                        <div class="network-layer hidden-layer-2">
+                            <div class="network-node"></div>
+                            <div class="network-node"></div>
+                            <div class="network-node"></div>
+                            <div class="network-node"></div>
+                        </div>
+                        
+                        <!-- Output Layer -->
+                        <div class="network-layer output-layer">
+                            <div class="network-node"></div>
+                        </div>
+                        
+                        <!-- Dynamic SVG for connections -->
+                        <svg class="network-connections" viewBox="0 0 600 500">
+                            <defs>
+                                <linearGradient id="connectionGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#0052FF;stop-opacity:0.9" />
+                                    <stop offset="100%" style="stop-color:#003ACC;stop-opacity:0.6" />
+                                </linearGradient>
+                                <linearGradient id="connectionGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#0052FF;stop-opacity:0.7" />
+                                    <stop offset="100%" style="stop-color:#003ACC;stop-opacity:0.4" />
+                                </linearGradient>
+                                <linearGradient id="connectionGradient3" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#0052FF;stop-opacity:0.5" />
+                                    <stop offset="100%" style="stop-color:#003ACC;stop-opacity:0.2" />
+                                </linearGradient>
+                                <linearGradient id="successGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" style="stop-color:#00C851;stop-opacity:0.9" />
+                                    <stop offset="100%" style="stop-color:#00A843;stop-opacity:0.6" />
+                                </linearGradient>
+                                <filter id="neuralGlow" x="-50%" y="-50%" width="200%" height="200%">
+                                    <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                                    <feMerge>
+                                        <feMergeNode in="coloredBlur"/>
+                                        <feMergeNode in="SourceGraphic"/>
+                                    </feMerge>
+                                </filter>
+                                <filter id="fadeEffect">
+                                    <feGaussianBlur stdDeviation="1.5" result="blur"/>
+                                    <feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.2 0"/>
+                                </filter>
+                            </defs>
+                            <!-- Connections will be dynamically generated -->
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
